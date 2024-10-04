@@ -58,8 +58,61 @@ function Projects() {
         ios: "https://apps.apple.com/us/app/minamin/id987654321",
       },
     },
+    {
+      title: "Krustty",
+      role: "React Native Developer",
+      duration: "Developed and maintaining for the last 1 year",
+      responsibilities: [
+        "Developed a cross-platform app that connects users with local restaurants.",
+        "Implemented user authentication and profile management.",
+        "Collaborated with the design team to create an intuitive user interface.",
+        "Integrated real-time location tracking and mapping features.",
+        "Conducted user feedback sessions to gather insights for improvements.",
+        "Optimized performance and responsiveness for both Android and iOS platforms.",
+      ],
+      achievements: [
+        "Successfully launched the app with positive user reviews.",
+        "Achieved a significant number of downloads within the first few months.",
+        "Enhanced user engagement through regular updates and feature additions.",
+        "Implemented feedback from users to improve app functionality.",
+      ],
+      skills:
+        "React Native, JavaScript, API integration, user authentication, UI/UX design.",
+      impact:
+        "Enabled users to easily find and connect with local restaurants, enhancing their dining experience.",
+      links: {
+        android: "https://play.google.com/store/apps/details?id=com.krustty&pcampaignid=web_share",
+        ios: "https://apps.apple.com/us/app/krustty/id123456789", // Update with the actual iOS link
+        web: "https://krustty.com",
+      },
+    },
+    {
+      title: "Krustty Partner",
+      role: "Web Developer",
+      duration: "Developed and maintaining for the last year",
+      responsibilities: [
+        "Developed a web platform for restaurant partners to manage their listings.",
+        "Implemented features for order management and analytics.",
+        "Collaborated with the design team to create a responsive and user-friendly interface.",
+        "Integrated secure payment processing and user authentication.",
+        "Optimized performance for a seamless user experience on both desktop and mobile.",
+      ],
+      achievements: [
+        "Successfully launched the platform with positive feedback from restaurant partners.",
+        "Increased partner engagement through regular updates and new features.",
+        "Achieved a significant number of active partners within the first few months.",
+      ],
+      skills:
+        "React JS, CSS, Bootstrap, API integration, user authentication, responsive design.",
+      impact:
+        "Facilitated efficient management for restaurant partners, enhancing their operational capabilities.",
+      links: {
+        web: "https://partner.krustty.com",
+      },
+    },
     // Add more projects similarly...
   ];
+  
 
   return (
     <section id="projects" className="py-20 bg-gray-800 text-white">
